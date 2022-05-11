@@ -1,5 +1,21 @@
 html *{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #E2BF9F;
+    background-color: #2F3E46;
 }
 
+.flex-container {
+    display: flex;
+    background-color: #F9C784;
+}
+.flex-item-1 {
+    background-color: #2F3E46;
+    color: #97D8B2;
+    margin: 100px;
+}
+
+.profile img {
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 50px;
+}
