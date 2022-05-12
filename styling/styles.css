@@ -60,3 +60,12 @@ hr {
     height: 30px;
     width: 30px;
 }
+
+.skills ul {
+    /* color as background */
+    color: #F9C784;    
+}
+
+.skills li {
+    padding: 5px;
+}
