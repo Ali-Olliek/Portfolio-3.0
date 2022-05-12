@@ -12,13 +12,15 @@ body {
     background-color: #778899;
 }
 .flex-item-1 {
-    flex:20%;
+    flex:20rem;
     background-color: #323a45;
     color: white;
     margin: 25px;
 }
 .flex-item-2 {
-    flex:40%;
+    height: fit-content;
+    padding: 30px;
+    flex:20rem;
     background-color: #323a45;
     color: white;
     margin: 25px;
@@ -113,12 +115,6 @@ hr {
 .hobbies i {
     color: white;
     width: 50%;
-}
-
-.flex-item-2 {
-    width: max-content;
-    height: fit-content;
-    padding: 30px;  
 }
 
 .introduction, .pub {
