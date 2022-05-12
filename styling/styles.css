@@ -13,7 +13,7 @@ body {
 .flex-item-1, .flex-item-2 {
     background-color: #2F3E46;
     color: #97D8B2;
-    margin: 50px;
+    margin: 25px;
 }
 
 .flex-item-1 h3 {
@@ -100,5 +100,9 @@ hr {
 .flex-item-2 {
     width: max-content;
     height: fit-content;
-    padding: 30px;
+    padding: 30px;  
+}
+
+.introduction {
+    text-align: justify;
 }
