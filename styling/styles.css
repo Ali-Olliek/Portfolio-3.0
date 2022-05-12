@@ -150,8 +150,13 @@ hr {
     padding-left: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .flex-item-1, .flex-item-2 {
       flex: 100%;
+    }
+      .experiences table, .edu table {
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 2em;
     }
   }
