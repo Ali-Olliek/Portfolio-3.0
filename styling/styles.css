@@ -112,17 +112,22 @@ hr {
     width: 100%;
 }
 
-.time, .date {
+.time {
     width: 20%;
     padding-right: 1rem;
     border-right: 1px solid;
 }
 
+.date {
+    width: 10%;
+    padding-right: 1rem;
+    border-right: 1px solid;
+}
 .company, .uni {
     width: 25%;
     border-right: 1px solid;
 }
 
-.edu {
-    padding-top: 10px;
+.deg, .description, .company, .uni {
+    padding-left: 5px;
 }
