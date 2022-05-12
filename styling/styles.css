@@ -56,9 +56,7 @@ hr {
 
 .contact i {
     /* color as background */
-    color: #F9C784;
-    height: 30px;
-    width: 30px;
+    color: #F9C784; 
 }
 
 .skills ul {
@@ -80,4 +78,21 @@ hr {
 .lang progress {
     width: 22rem;
     padding-bottom: 5px;
+}
+
+.hobbies ul {
+    padding-left: 0px;
+    text-align: center;
+    list-style: none;
+    color: #F9C784;
+}
+
+.hobbies li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.hobbies i {
+    color: #F9C784;
+    width: 50%;
 }
