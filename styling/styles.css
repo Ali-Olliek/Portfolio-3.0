@@ -19,6 +19,7 @@ body {
 .flex-item-1 h3 {
     padding-left: 20px;
 }
+
 hr {
     /* Change this color to the background's color */
     height: 5px; 
@@ -43,8 +44,19 @@ hr {
     margin: 0;
     padding-bottom: 10px;
 }
-
+.contact ul {
+    /* https://stackoverflow.com/a/30830043 */
+    text-align: center;
+    padding-inline-start: 0px;
+}
 .contact li {
-    display: inline;
-    
+    display: inline-block;
+    padding: 20px;
+}
+
+.contact i {
+    /* color as background */
+    color: #F9C784;
+    height: 30px;
+    width: 30px;
 }
