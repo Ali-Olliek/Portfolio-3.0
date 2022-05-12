@@ -19,6 +19,15 @@ body {
 .flex-item-1 h3 {
     padding-left: 20px;
 }
+hr {
+    /* Change this color to the background's color */
+    height: 5px; 
+    border: 0;  
+    margin: 0px;
+    background-color: #F9C784;
+
+}
+
 .profile img {
     width:400px;
     height: 400px;
@@ -35,3 +44,7 @@ body {
     padding-bottom: 10px;
 }
 
+.contact li {
+    display: inline;
+    
+}
