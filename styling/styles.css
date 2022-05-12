@@ -69,3 +69,12 @@ hr {
 .skills li {
     padding: 5px;
 }
+
+.lang li {
+    color: #F9C784;
+}
+
+.lang progress {
+    width: 22rem;
+    progress:-webkit-progress-value { background: blue; };
+}
