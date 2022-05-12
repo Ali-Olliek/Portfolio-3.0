@@ -106,3 +106,21 @@ hr {
 .introduction {
     text-align: justify;
 }
+
+.experiences table {
+    padding-bottom: 10px;
+    width: 100%;
+}
+.experiences thead {
+    color: red;
+}
+.time {
+    width: 20%;
+    padding-right: 1rem;
+    border-right: 1px solid;
+}
+
+.company {
+    width: 25%;
+    border-right: 1px solid;
+}
