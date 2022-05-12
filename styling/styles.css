@@ -107,20 +107,22 @@ hr {
     text-align: justify;
 }
 
-.experiences table {
+.experiences table, .edu table {
     padding-bottom: 10px;
     width: 100%;
 }
-.experiences thead {
-    color: red;
-}
-.time {
+
+.time, .date {
     width: 20%;
     padding-right: 1rem;
     border-right: 1px solid;
 }
 
-.company {
+.company, .uni {
     width: 25%;
     border-right: 1px solid;
+}
+
+.edu {
+    padding-top: 10px;
 }
